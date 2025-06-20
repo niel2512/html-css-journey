@@ -1,0 +1,35 @@
+* {
+  font-family: Arial;
+}
+
+/* last rule */
+i {
+  color: darkgreen;
+}
+i {
+  color: red; /*yang diambil ini*/
+}
+
+/* spesifik */
+b {
+  color: darkmagenta; /*lv 1*/
+}
+
+p b {
+  color: brown !important; /*lv 3*/
+}
+
+p b {
+  color: blue; /*lv 2*/
+}
+p b {
+  font-size: 150%;
+}
+
+/* studi kasus */
+p {
+  font-size: 100%;
+}
+p#pendahuluan {
+  font-size: 75%; /*lebih spesifik*/
+}
