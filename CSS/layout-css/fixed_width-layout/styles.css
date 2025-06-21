@@ -1,0 +1,49 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Arial;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+#nav,
+#highlight,
+#footer {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+#nav li {
+  display: inline;
+  padding: 8px;
+}
+
+#highlight img {
+  width: 20%;
+}
+
+#content {
+  text-align: justify;
+}
+
+.article1,
+.article2,
+.article3 {
+  float: left;
+  width: 280px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #efefef;
+}
+.article2 {
+  overflow: scroll;
+}
+
+#content {
+  height: 100%;
+  overflow: auto;
+}
