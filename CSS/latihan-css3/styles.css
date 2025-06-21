@@ -1,0 +1,73 @@
+* {
+  font-family: "Segoe UI";
+}
+.header {
+  background-color: aqua;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.header-title {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header:hover {
+  background-color: navy;
+}
+.judul {
+  background-color: coral;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+/* konten */
+.konten {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.konten-credit {
+  font-size: 14px;
+  font-weight: normal;
+}
+.penulis {
+  color: navy;
+}
+.tanggal {
+  color: chartreuse;
+}
+span {
+  color: blue;
+}
+.container {
+  /* border: 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-preview {
+  width: 300px;
+  margin: 20px;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.box-preview-judul {
+  font-size: 1.2em;
+  height: 60px;
+  font-weight: 800;
+}
+.box-preview-credit {
+  font-style: italic;
+}
+.box-preview:hover {
+  background-color: #efefef;
+}
+.more {
+  padding-left: 65%;
+}
