@@ -1,0 +1,41 @@
+* {
+  font-family: "Segoe UI";
+}
+span {
+  background-color: goldenrod;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+}
+/* inline */
+span.inline {
+  display: inline;
+}
+
+/* block akan mengikuti width dan tinggi span */
+span.block {
+  display: block;
+}
+
+/* inline-block */
+span.inline-block {
+  display: inline-block;
+}
+
+/* flex */
+.flex-container {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: center;
+}
+.flex-item {
+  background-color: azure;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
