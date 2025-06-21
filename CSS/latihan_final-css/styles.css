@@ -50,18 +50,28 @@
 .konten {
   width: 80%;
   margin: auto;
+  padding-bottom: 80px;
 }
 .konten h1 {
   color: darkcyan;
+  text-align: center;
 }
 .konten h2 {
   font-size: 22px;
   color: darkgreen;
 }
-
+.konten p {
+  width: 750px;
+  text-align: justify;
+}
 /* buku */
+.align-right {
+  float: right;
+  /* margin-left: 10px; */
+}
 .tabel-buku {
   border-spacing: 4px;
+  margin: inherit;
 }
 .tabel-header {
   background-color: cadetblue;
@@ -88,6 +98,7 @@ td img {
 
 /* kontak */
 .form-group {
+  padding-left: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -106,6 +117,9 @@ td img {
   margin-top: 10px;
   height: 150px;
   width: 60%;
+}
+button {
+  margin-left: 25%;
 }
 .btn {
   width: 100px;
