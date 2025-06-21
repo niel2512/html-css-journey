@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  color: cadetblue;
+}
+table {
+  width: 600px;
+  /* border-spacing: 10px; */
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  border-top: 1px solid red;
+  border-bottom: 2px solid red;
+  text-align: left;
+  font-size: 80%;
+}
+tr.genap {
+  background-color: #efefef;
+}
+tr:hover {
+  background-color: darkgreen;
+}
