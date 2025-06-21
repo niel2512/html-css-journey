@@ -1,0 +1,51 @@
+/* Cascade */
+* {
+  font-family: Segoe UI;
+}
+
+h1 {
+  font-family: times New Roman;
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+h3 {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+/* child selector */
+h3 > span {
+  font-family: Verdana;
+}
+
+/* merubah semua span */
+span {
+  color: navy;
+}
+
+/* inheritence */
+h3 {
+  padding: 12px;
+}
+h3 > span {
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+/* Color */
+h2 {
+  background-color: black;
+  color: beige;
+  padding: 10px;
+}
+h3 {
+  background-color: rgba(100, 25, 0, 0.2);
+}
+p {
+  text-align: justify;
+}
+body {
+  background-color: darkgoldenrod;
+}
