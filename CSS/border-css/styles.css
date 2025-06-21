@@ -5,6 +5,7 @@
   border: 2px solid red;
   border-bottom-width: 4px;
 }
+/* solid */
 #atas-solid {
   border-top-width: 4px;
   border-top-style: solid;
@@ -14,13 +15,42 @@
   border-bottom-width: 4px;
   border-bottom-style: solid;
 }
-#kiri-solid {
+/* double */
+#bawah-double {
   border-color: blue;
-  border-left-width: 4px;
-  border-left-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-style: double;
 }
-#kanan-solid {
+/* dashed */
+#bawah-dashed {
   border-color: red;
-  border-right-width: 4px;
-  border-right-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-style: dashed;
+}
+/* dotted */
+#bawah-dotted {
+  border-color: green;
+  border-bottom-width: 4px;
+  border-bottom-style: dotted;
+}
+/* groove */
+#bawah-groove {
+  border-color: navy;
+  border-bottom-width: 4px;
+  border-bottom-style: groove;
+}
+.border-2 {
+  border-width: 20px; /* atas-bawah-kiri-kanan */
+  border-color: pink;
+  border-style: solid;
+}
+.border-3 {
+  border-width: 20px 5px; /* atas-bawah kiri-kanan */
+  border-color: pink;
+  border-style: solid;
+}
+.border-4 {
+  border-width: 20px 15px 10px 15px; /* atas kanan bawah kiri */
+  border-color: pink;
+  border-style: solid;
 }
