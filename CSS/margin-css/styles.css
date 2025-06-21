@@ -1,0 +1,27 @@
+* {
+  font-family: "Lucida Sans";
+}
+.margin {
+  border: 1px solid;
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+.margin-1 {
+  margin: 5px;
+}
+.margin-2 {
+  margin: 10px 20px; /* atas-bawah kiri-kanan */
+}
+.margin-3 {
+  margin: 10px auto 30px; /* atas kiri-kanan bawah */
+}
+.margin-4 {
+  margin: 10px 20px 40px auto; /* atas kanan bawah kiri */
+  /* Atas dan bawah Sama */
+  /* geser nilai bagian tertentu */
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
