@@ -1,0 +1,44 @@
+* {
+  font-family: "Segoe UI";
+}
+input {
+  font-size: 120%;
+  background-color: #efefef;
+  color: darkslategray;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+  display: block;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 8px;
+}
+input:focus {
+  background-color: #ffff;
+}
+input#laravel {
+  background-image: url("img/Laravel.png");
+}
+input#html {
+  background-image: url("img/HTML.png");
+}
+#tailwind {
+  background-image: url("img/Tailwind.png");
+}
+input#java {
+  background-image: url("img/Java.png");
+}
+#submit {
+  color: #efefef;
+  text-shadow: 1px 1px 5px #ffff;
+  background-color: darkslategrey;
+  padding: 5px 10px 5px 10px;
+}
+#submit:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+#submit:active {
+  background-color: lightcoral;
+}
