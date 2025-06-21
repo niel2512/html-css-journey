@@ -1,0 +1,26 @@
+* {
+  font-family: "Segoe UI";
+}
+.border-1 {
+  border: 2px solid red;
+  border-bottom-width: 4px;
+}
+#atas-solid {
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+#bawah-solid {
+  border-color: aqua;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+#kiri-solid {
+  border-color: blue;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+#kanan-solid {
+  border-color: red;
+  border-right-width: 4px;
+  border-right-style: solid;
+}
