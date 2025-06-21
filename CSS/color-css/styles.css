@@ -1,0 +1,30 @@
+/* color */
+
+/* foreground color */
+h1 {
+  color: darkblue;
+}
+
+/* hex code */
+p {
+  color: #ee3e80;
+}
+
+/* rgb code */
+h2 {
+  color: rgb(74, 32, 54);
+}
+
+/* background color */
+body {
+  background-color: #efefef;
+}
+h1 {
+  background-color: darkgoldenrod;
+}
+h2 {
+  background-color: aqua;
+}
+p {
+  background-color: rgb(60, 71, 88);
+}
