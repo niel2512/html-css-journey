@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  color: darkcyan;
+  padding: 10px;
+}
+.intro {
+  border: 1px solid #000;
+  background-color: #efefef;
+  padding: inherit;
+}
+#pendahuluan {
+  color: navy;
+}
