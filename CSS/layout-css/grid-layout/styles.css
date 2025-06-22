@@ -1,0 +1,49 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Segoe UI";
+}
+#nav,
+#footer {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
+
+/* CSS GRID */
+.grid-container {
+  display: grid;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  grid-template-columns: 30% 30% auto;
+  /* grid-template-columns: 200px 200px 200px; */
+  /* grid-template-rows: 100px 200px auto; */
+  grid-template-rows: 100px 200px auto;
+  gap: 10px 20px; /* baris kolom */
+  margin: 1%;
+  background-color: #efefef;
+}
+.grid-item {
+  background-color: antiquewhite;
+  border: 1px solid red;
+  text-align: center;
+  padding: 20px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3; /* Stop sebelum kolom 3 */
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 4; /* Stop sebelum kolom 4 */
+}
+.item5 {
+  grid-row-start: 5;
+  grid-row-end: 3; /* Stop di baris 3 */
+}
