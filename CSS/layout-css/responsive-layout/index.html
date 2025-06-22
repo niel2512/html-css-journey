@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Responsive Layout</title>
+    <title>Responsive Grid</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- tag untuk menyesuaikan viewport perangkat yg akses -->
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
-    <!-- width(menyesuaikan width perangkat yang akses) initial(menyesuaikan skala nya selalu 1) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <img src="img/foto.jpg" alt="poto" width="100%" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt porro dolorum perferendis, sit debitis, amet saepe eveniet asperiores voluptas consectetur ad laboriosam at? Expedita quo modi est. Quasi, ut quibusdam.</p>
+    <div class="header">
+      <h1>Indonesia</h1>
+    </div>
+    <div class="container">
+      <div class="menu col-3">
+        <ul>
+          <li>The Island</li>
+          <li>The Cities</li>
+          <li>The Foods</li>
+          <li>The Attractions</li>
+        </ul>
+      </div>
+      <div class="content col-9">
+        <h1>The Islands</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ratione facere expedita explicabo provident quisquam, vero magni velit totam assumenda, repudiandae rerum quia officia atque? Similique ab magnam consequatur numquam!
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi voluptate a rerum aliquid amet sequi, harum consequatur, culpa officia quisquam sed facere quidem exercitationem ad hic dignissimos eum quae?</p>
+      </div>
+    </div>
   </body>
 </html>
