@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Bootstrap CSS (Traverl)</title>
   </head>
-  <body>
+  <body class="">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
       <div class="container">
-        <h1><a href="#" class="navbar-brand">Traverl</a></h1>
+        <a href="#" class="navbar-brand h1">Traverl</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,23 +33,22 @@
     </nav>
 
     <!-- Header -->
-    <section class="header text-center text-sm-start">
+    <section class="header text-center text-sm-start pb-5">
       <div class="container">
         <div class="d-flex align-items-center">
           <div>
             <h1><span class="text-primary">Mari Eksplor</span> Kota-Kota Impian kamu!</h1>
             <p class="lead">Yuk kita jalan melepas penat, mengisi hari bersama teman-teman, jadi Traverl.</p>
-            <button class="btn btn-primary">Let's Go!</button>
+            <a href="#services"><button class="btn btn-primary">Let's Go!</button></a>
           </div>
           <img class="img-thumbnail w-50 d-none d-sm-block" src="img/header.svg" alt="gambar" />
         </div>
       </div>
     </section>
-    <hr />
 
     <!-- Services -->
     <section id="services">
-      <div class="container pb-4">
+      <div class="container">
         <h3>Our Services</h3>
         <div class="row text-center g-4">
           <div class="col-md">
@@ -87,9 +86,9 @@
     </section>
 
     <!-- Promo -->
-    <section class="bg-primary text-light p-5" id="promo">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
+    <section class="bg-primary text-light mt-5 p-5" id="promo">
+      <div class="container p-2 align-items-center">
+        <div class="d-md-flex justify-content-between">
           <h4>Dapatkan Promo Menarik</h4>
 
           <div class="input-group">
@@ -101,7 +100,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="p-5" id="contact">
+    <section id="contact">
       <div class="container">
         <div class="row g-4 align-items-center">
           <div class="col-md">

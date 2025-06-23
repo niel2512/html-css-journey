@@ -4,3 +4,10 @@
 #services img {
   height: 150px;
 }
+#services .container {
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+#contact {
+  padding: 100px;
+}
