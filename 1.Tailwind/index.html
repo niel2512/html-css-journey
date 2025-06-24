@@ -14,14 +14,14 @@
     <style type="text/tailwindcss">
       @theme {
         --font-poppins: "Poppins";
-        --breakpoint-md: 1024px;
+        --breakpoint-md: 1030px;
       }
     </style>
   </head>
   <body class="bg-[#223148] font-poppins">
     <!-- Navbar -->
     <header class="bg-gray-900 max-w-full sticky top-0">
-      <div class="container mx-auto">
+      <div class="w-4/5 mx-auto">
         <nav>
           <div class="flex flex-wrap items-center justify-between h-16">
             <a href="#" class="rounded-lg px-5 text-xl content-center font-extrabold text-white hover:text-gray-300"><img src="img/car-logo.svg" class="w-[50px] inline-block" alt="logo" />A-Mut</a>
@@ -44,15 +44,16 @@
     </header>
 
     <!-- Content -->
-    <section id="hero" class="p-8">
-      <div class="container mx-auto">
-        <div class="grid grid-flow-row grid-cols-4 grid-rows-4 gap-4">
-          <div class="grid-item col-span-4 border border-white">
-            <h1 class="text-white text-3xl font-bold text-center h-full w-full flex flex-col justify-center items-center transition-all">
+    <section id="hero">
+      <div class="w-5/6 mx-auto py-10">
+        <div class="grid grid-flow-row grid-cols-4 grid-rows-3 gap-4 border border-white">
+          <div class="grid-item col-span-3">
+            <h1 class="text-white border text-3xl font-bold text-center h-full w-full flex flex-col justify-center items-center transition-all">
               <span class="text-blue-500 bg-blue-100">Hello World....!!</span>Perkenalkan nama saya adalah <span class="">Nathaniel Yusuf Langelo</span>
             </h1>
           </div>
-          <p class="grid-item row-span-3 text-white border h-full w-full text-justify px-1">
+          <p class="text-white flex justify-center items-center border h-full w-full"><img src="img/map.png" /></p>
+          <p class="text-white border h-full w-full text-justify px-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur ex impedit, adipisci dignissimos culpa nemo, eveniet architecto sit voluptas cupiditate doloremque quaerat neque nesciunt debitis, porro minus saepe
             ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi vitae accusamus ea nobis harum alias molestias incidunt. A placeat earum dolore facere provident suscipit debitis cupiditate deserunt consequatur sint!
           </p>
@@ -64,25 +65,31 @@
               officia itaque pariatur.
             </p>
           </div>
-          <div class="grid-item">
-            <p class="text-white text-center border h-full w-full">Haloooo.... Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <div>
+            <p class="text-white flex justify-center items-center border h-full w-full"><img src="img/map.png" class="w-1/2" alt="" /></p>
           </div>
-          <div class="grid-item col-span-2 row-span-2">
+          <div>
+            <p class="text-white flex justify-center items-center border h-full w-full"><img src="img/map.png" class="w-1/2" alt="" /></p>
+          </div>
+          <div class="grid-item col-span-2">
             <p class="text-white text-center border h-full w-full">
               Haloooo.... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, tempora eligendi eius necessitatibus quo quisquam numquam vel voluptatum, deserunt cumque accusamus facere ea? Consequatur dolor iure, quisquam iusto
               deleniti error. Nesciunt ullam distinctio eius. Similique nulla repellendus sunt impedit facere totam voluptatem et quas accusamus aperiam assumenda aliquid, dignissimos rerum ut ad maiores nesciunt molestias dolor commodi
               officia itaque pariatur.
             </p>
           </div>
-          <div class="grid-item">
-            <p class="text-white text-center border h-full w-full">Haloooo.... Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="grid-item">
+          <div>
             <p class="text-white text-center border h-full w-full">Haloooo.... Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-900 max-w-full p-4">
+      <div class="text-white text-center">Copyright &copy; A-Mut 2025</div>
+    </footer>
+
     <!-- Loading Screen -->
     <!-- <div class="fixed inset-0 flex flex-col justify-center items-center h-full w-full">
       <div class="fixed flex justify-center items-center z-1">
