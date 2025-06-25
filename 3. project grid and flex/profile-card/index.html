@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800" rel="stylesheet" />
+    <style type="text/tailwindcss">
+      @theme {
+        --font-poppins: "Poppins";
+        --breakpoint-md: 1030px;
+      }
+    </style>
+    <title>Profile Card</title>
+  </head>
+  <body class="flex items-center justify-center font-poppins min-h-screen">
+    <div class="grid border grid-cols-2 grid-rows-3 w-4/5 gap-2">
+      <h1 class="grid-item col-span-2 row-span-3 border text-blue-500 text-xs md:text-lg font-bold text-center">Personal <span class="bg-blue-200">Profile Card</span></h1>
+      <div class="grid-item row-span-5 border-black content-center border-r px-4"><img src="../../Assets/traverl.png" alt="" class="rounded-full border py-4 m-2 bg-slate-300" /></div>
+      <h1 class="flex text-base md:text-lg bg-slate-500">Nathaniel Yusuf Langelo</h1>
+      <p class="text-xs">Web Developer | Front End Developer</p>
+      <hr />
+      <h1 class="flex text-base md:text-lg">lorem ipsum dolor sit amet.</h1>
+      <div>
+        <ul class="flex gap-4 text-xs pb-1 overflow-hidden">
+          <li><a href="github" class="text-blue-400 hover:bg-blue-200">Github</a></li>
+          <li><a href="github" class="text-blue-400 hover:bg-blue-200">Instagram</a></li>
+          <li><a href="github" class="text-blue-400 hover:bg-blue-200">Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
