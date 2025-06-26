@@ -21,31 +21,27 @@
   <body class="bg-[#223148] font-poppins">
     <!-- Navbar -->
     <header class="bg-gray-900 max-w-full sticky top-0">
-      <div class="w-4/5 mx-auto">
-        <nav>
-          <div class="flex flex-wrap items-center justify-between h-16">
-            <a href="#" class="rounded-lg px-5 text-xl content-center font-extrabold text-white hover:text-gray-300"><img src="img/car-logo.svg" class="w-[50px] inline-block" alt="logo" />A-Mut</a>
-            <div class="p-2">
-              <ul class="md:flex flex-row gap-3 pt-2 pb-2 hidden">
-                <li><a href="#" class="rounded-md px-4 py-2 text-sm font-medium text-gray-300 hover:text-gray-400">Travel History</a></li>
-                <li><a href="#" class="rounded-md px-4 py-2 text-sm font-medium text-gray-300 hover:text-gray-400">Bus Stop Location</a></li>
-                <li><a href="#" class="rounded-md px-4 py-2 text-sm font-medium text-gray-300 hover:text-gray-400">Bus Stop Mapping</a></li>
-                <li><a href="#" class="rounded-md px-4 py-2 text-sm font-medium text-gray-300 hover:text-gray-400">Operational Schedule</a></li>
+      <div class="container mx-auto">
+        <nav class="flex items-center justify-between h-16">
+            <a href="#" class="p-2 text-xl font-extrabold text-white hover:text-blue-400">A-Mut</a>
+              <ul class="md:flex md:space-x-2 flex-row hidden">
+                <li><a href="#" class="px-2 text-sm font-medium border-1 border-transparent border-x-blue-400 text-gray-300 hover:text-blue-400">Travel History</a></li>
+                <li><a href="#" class="px-2 text-sm font-medium border-1 border-transparent border-r-blue-400 text-gray-300 hover:text-blue-400">Bus Stop Location</a></li>
+                <li><a href="#" class="px-2 text-sm font-medium border-1 border-transparent border-r-blue-400 text-gray-300 hover:text-blue-400">Bus Stop Mapping</a></li>
+                <li><a href="#" class="px-2 text-sm font-medium text-gray-300 hover:text-blue-400">Operational Schedule</a></li>
               </ul>
-            </div>
             <div class="flex items-center gap-6 text-3xl text-white cursor-pointer p-2 md:hidden">
               <ion-icon name="menu"></ion-icon>
               <ion-icon name="close"></ion-icon>
             </div>
-            <a href="#" class="hidden md:flex rounded-md content-center px-4 py-1 bg-gray-600 text-md font-bold text-white hover:bg-gray-700">Login</a>
-          </div>
         </nav>
       </div>
     </header>
 
     <!-- Content -->
-    <section id="hero">
-      <div class="w-5/6 mx-auto py-8">
+    <main>
+      <section id="hero" >
+        <div class="container mx-auto py-8">
         <h1 class="text-white text-3xl font-bold text-center h-full w-full flex flex-col justify-center items-center pb-2">
           <span class="text-blue-500 bg-blue-100">Hello World....!!</span>Perkenalkan nama saya adalah <span class="">Nathaniel Yusuf Langelo</span>
         </h1>
@@ -83,11 +79,15 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <footer id="footer" class="bg-gray-900 max-w-full p-4">
-      <div class="text-white text-center">Copyright &copy; A-Mut 2025</div>
+  </footer>
+    <footer class="bg-gray-900 max-w-full p-4">
+      <div class="container mx-auto px-6 text-white text-center">
+        <p>Copyright &copy; A-Mut 2025</p>
+      </div>
     </footer>
 
     <!-- Loading Screen -->
