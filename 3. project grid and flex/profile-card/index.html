@@ -14,7 +14,33 @@
     <title>Profile Card</title>
   </head>
   <body class="flex items-center justify-center font-poppins min-h-screen">
-    <div class="grid border grid-cols-2 grid-rows-3 w-4/5 gap-2">
+    
+    <div class="bg-slate-600 rounded-xl shadow-lg w-11/12 md:w-3/5 lg:w-1/2 p-8 flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div class="flex-shrink-0">
+        <img src="https://placehold.co/150x150/94a3b8/FFFFFF" alt="Foto" class="w-32 h-32 rounded-full border-4 border-slate-200" />
+        <div class="fixed inset-0 flex flex-col justify-center items-center h-full w-full">
+    </div>
+      </div>
+
+      <div class="flex flex-col w-full text-center md:text-left">
+        
+        <!-- Nama dan Jabatan -->
+        <div>
+          <h2 class="text-2xl font-bold text-slate-800">Nathaniel Yusuf Langelo</h2>
+          <p class="text-md text-blue-600 font-medium mt-1">Web Developer | Front-End Specialist</p>
+        </div>
+
+        <!-- Deskripsi / Bio -->
+        <p class="text-slate-600 mt-4 text-sm">
+          A passionate front-end developer dedicated to creating beautiful, intuitive, and responsive web experiences.
+        </p>
+
+        <!-- Garis Pemisah (menggunakan border-t) -->
+        <div class="border-t border-slate-200 my-4"></div>
+
+    </div>
+    
+    <!-- <div class="grid border grid-cols-2 grid-rows-3 w-4/5 gap-2">
       <h1 class="grid-item col-span-2 row-span-3 border text-blue-500 text-xs md:text-lg font-bold text-center">Personal <span class="bg-blue-200">Profile Card</span></h1>
       <div class="grid-item row-span-5 border-black content-center border-r px-4"><img src="../../Assets/traverl.png" alt="" class="rounded-full border py-4 m-2 bg-slate-300" /></div>
       <h1 class="flex text-base md:text-lg bg-slate-500">Nathaniel Yusuf Langelo</h1>
@@ -28,6 +54,6 @@
           <li><a href="github" class="text-blue-400 hover:bg-blue-200">Linkedin</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
